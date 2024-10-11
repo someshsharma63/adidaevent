@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import "bootstrap/dist/js/bootstrap.bundle.min"; 
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
@@ -9,8 +10,7 @@ import Contact from "./Pages/Contact";
 import Gallery from "./Pages/Gallery";
 import Testimonials from "./Pages/Testimonials";
 import Header from "./Components/Header";
-
-
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
           <Route path="/testimonial" element={<Testimonials />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );

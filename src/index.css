@@ -8,6 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+/* @import '~react-owl-carousel/dist/assets/owl.carousel.min.css';
+@import '~react-owl-carousel/dist/assets/owl.theme.default.min.css'; */
+
 * {
   padding: 0;
   margin: 0;
