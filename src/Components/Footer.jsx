@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { FaFacebook } from "react-icons/fa";
 function Footer() {
   return (
    <div>
@@ -29,8 +29,8 @@ function Footer() {
           <div className="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i className="fa fa-angle-right"></i> <a href="Terms-of-service.html" target="_blank">Terms of service</a></li>
-              <li><i className="fa fa-angle-right"></i> <a href="Privacy_policy.html" target="_blank">Privacy policy</a></li>
+              <li><i className="fa fa-angle-right"></i> <a href="/termsofservice" target="_blank">Terms of service</a></li>
+              <li><i className="fa fa-angle-right"></i> <a href="/privacypolicy" target="_blank">Privacy policy</a></li>
               <li><i className="fa fa-angle-right"></i> <a href="#contact"> Contact us</a></li>
               <li><i className="fa fa-angle-right"></i> <a href="#testimonials">Testimonials </a></li>
             </ul>

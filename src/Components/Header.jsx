@@ -21,7 +21,7 @@ function Header() {
           <nav id="nav-menu-container">
             <ul className="nav-menu">
               <li className="menu-active">
-                <a href="#intro">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="#about">About Us</a>
@@ -38,6 +38,9 @@ function Header() {
               <li>
                 <a href="#contact">Contact us</a>
               </li>
+              {/* <li>
+                <a href="/privacypolicy">Privacy policy</a>
+              </li> */}
             </ul>
 
             <button className="open-modal-btn" id="openModalBtn">

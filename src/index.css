@@ -1451,6 +1451,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   justify-content: space-evenly;
 }
 
+.webicons {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #f82249;
+}
+.contact-phone a
+{
+  text-decoration: none;
+}
+.contact-email a
+{
+  text-decoration: none;
+}
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1573,4 +1587,58 @@ body.mobile-nav-active #mobile-nav-toggle {
   #subscribe button {
     margin-top: 10px;
   }
+}
+
+.vbox-content
+{
+  text-align: center;
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+
+@media (min-width: 992px) {
+  .venoframe.vbvid {
+      width: 960px;
+      height: 540px;
+  }
+}
+
+.vbox-overlay {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1040;
+  -webkit-transform: translateZ(1000px);
+  transform: translateZ(1000px);
+  transform-style: preserve-3d;
+}
+
+.vbox-close {
+  cursor: pointer;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  width: 48px;
+  height: 48px;
+  display: block;
+  background-position: 10px center;
+  overflow: hidden;
+  font-size: 48px;
+  line-height: 1;
+  text-align: center;
+  z-index: 1050;
 }

@@ -11,6 +11,8 @@ import Gallery from "./Pages/Gallery";
 import Testimonials from "./Pages/Testimonials";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import Privacypolicy from "./Pages/Privacypolicy";
+import Terms_of_service from "./Pages/Terms_of_service";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/testimonial" element={<Testimonials />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacypolicy" element={<Privacypolicy />} />
+          <Route path="/termsofservice" element={<Terms_of_service />} />
         </Routes>
         <Footer/>
       </BrowserRouter>

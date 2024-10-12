@@ -9,21 +9,28 @@ function Contact() {
 
                 <div className="row contact-info">
                     <div className="col-md-4">
-                        <FaMapMarkerAlt />
+                        <div className="webicons">
+                             <FaMapMarkerAlt />
+                        </div>
+
                         <div className="contact-address">
                             <address>1/6979 street no -2 Shivaji Park shahdara Delhi-110032</address>
                         </div>
                     </div>
 
                     <div className="col-md-4">
+                    <div className="webicons">
                         <FaPhoneAlt />
+                        </div>
                         <div className="contact-phone">
                             <p><a href="tel:8800123421">8800123421</a></p>
                         </div>
                     </div>
 
                     <div className="col-md-4">
+                    <div className="webicons">
                         <FaInbox />
+                        </div>
                         <div className="contact-email">
                             <p><a href="mailto:adidaevents@gmail.com">adidaevents@gmail.com</a></p>
                         </div>
